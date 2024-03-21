@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelService.Api", "PixelService.Api\PixelService.Api.csproj", "{454002C6-0B66-4D7C-A4D8-57CFC9C95B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService.Api", "StorageService.Api\StorageService.Api.csproj", "{F9BA75A4-60A7-4F8F-84F8-51ECBFB77377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService.Api.DataContracts", "StorageService.Api.DataContracts\StorageService.Api.DataContracts.csproj", "{56B48D8A-7EA8-40F0-8804-E927820B0BB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution files", "Solution files", "{24D6B341-1E14-414C-8666-E22FEB7B293F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{454002C6-0B66-4D7C-A4D8-57CFC9C95B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454002C6-0B66-4D7C-A4D8-57CFC9C95B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454002C6-0B66-4D7C-A4D8-57CFC9C95B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454002C6-0B66-4D7C-A4D8-57CFC9C95B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BA75A4-60A7-4F8F-84F8-51ECBFB77377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BA75A4-60A7-4F8F-84F8-51ECBFB77377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BA75A4-60A7-4F8F-84F8-51ECBFB77377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BA75A4-60A7-4F8F-84F8-51ECBFB77377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B48D8A-7EA8-40F0-8804-E927820B0BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B48D8A-7EA8-40F0-8804-E927820B0BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B48D8A-7EA8-40F0-8804-E927820B0BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B48D8A-7EA8-40F0-8804-E927820B0BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

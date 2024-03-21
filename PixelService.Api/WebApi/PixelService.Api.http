@@ -1,0 +1,6 @@
+@PixelService.Api_HostAddress = http://localhost:5040
+
+GET {{PixelService.Api_HostAddress}}/track/
+Accept: application/json
+
+###

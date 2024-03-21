@@ -1,0 +1,11 @@
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/bin/Debug/net8.0/StorageService.Api.DataContracts.deps.json
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/bin/Debug/net8.0/StorageService.Api.DataContracts.dll
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/bin/Debug/net8.0/StorageService.Api.DataContracts.pdb
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/obj/Debug/net8.0/StorageService.Api.DataContracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/obj/Debug/net8.0/StorageService.Api.DataContracts.AssemblyInfoInputs.cache
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/obj/Debug/net8.0/StorageService.Api.DataContracts.AssemblyInfo.cs
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/obj/Debug/net8.0/StorageService.Api.DataContracts.csproj.CoreCompileInputs.cache
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/obj/Debug/net8.0/StorageService.Api.DataContracts.dll
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/obj/Debug/net8.0/refint/StorageService.Api.DataContracts.dll
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/obj/Debug/net8.0/StorageService.Api.DataContracts.pdb
+/home/maksmdmn/Coding/peakventures/SuperTracker/StorageService.Api.DataContracts/obj/Debug/net8.0/ref/StorageService.Api.DataContracts.dll
