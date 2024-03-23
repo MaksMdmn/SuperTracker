@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution files", "Solution 
 		docker-compose.build.yml = docker-compose.build.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService.Api.Tests", "StorageService.Api.Tests\StorageService.Api.Tests.csproj", "{0F7019E5-9E3F-4C3C-8F2C-14E7E80CB184}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,5 +35,9 @@ Global
 		{56B48D8A-7EA8-40F0-8804-E927820B0BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56B48D8A-7EA8-40F0-8804-E927820B0BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56B48D8A-7EA8-40F0-8804-E927820B0BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7019E5-9E3F-4C3C-8F2C-14E7E80CB184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7019E5-9E3F-4C3C-8F2C-14E7E80CB184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7019E5-9E3F-4C3C-8F2C-14E7E80CB184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7019E5-9E3F-4C3C-8F2C-14E7E80CB184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

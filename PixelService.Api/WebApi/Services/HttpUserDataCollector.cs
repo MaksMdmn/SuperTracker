@@ -1,6 +1,5 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Logging;
 using PixelService.Api.Application.Interfaces;
 using PixelService.Api.Infrastructure.Interfaces;
 using StorageService.Api.DataContracts;
@@ -18,8 +17,7 @@ namespace PixelService.Api.WebApi.Services;
 /// </summary>
 public class HttpUserDataCollector(
     IHttpContextAccessor accessor, 
-    IMessageSender sender, 
-    ILogger<HttpUserDataCollector> logger)
+    IMessageSender sender)
     : IUserDataCollector
 {
     public async Task CollectAsync()
@@ -28,16 +26,13 @@ public class HttpUserDataCollector(
         var referrer = accessor.HttpContext.Request.Headers.Referer;
         var userAgent = accessor.HttpContext.Request.Headers.UserAgent;
         
-        if (string.IsNullOrWhiteSpace(ip))
+        var command = new CreateVisitor
         {
-            logger.LogError(
-                "Ip address cannot be identified, request '{TraceId}' skipped", 
-                accessor.HttpContext.TraceIdentifier);
-            
-            return;
-        }
-
-        var command = new CreateVisitor(ip, referrer, userAgent);
+            IpAddress = ip,
+            Referrer = referrer,
+            UserAgent = userAgent
+        };
+        
         await sender.SendAsync(command);
     }
 }

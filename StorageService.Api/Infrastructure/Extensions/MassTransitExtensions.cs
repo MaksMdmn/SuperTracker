@@ -16,7 +16,7 @@ public static class MassTransitExtensions
         {
             options.SetKebabCaseEndpointNameFormatter();
             
-            options.AddConsumer<CreateVisitorConsumer>();
+            options.AddConsumer<VisitorConsumer>();
     
             options.UsingRabbitMq((context, configurator) =>
             {
