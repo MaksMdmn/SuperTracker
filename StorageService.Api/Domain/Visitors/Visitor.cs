@@ -3,7 +3,11 @@ using System;
 namespace StorageService.Api.Domain.Visitors;
 
 /// <summary>
-/// I expect this should be a business entity and have an Id 
+/// This is my guess, but Visitor might probably has much more business logic around it.
+/// So I extracted it as a business entity within the Domain layer and added an Id to it.
+///
+/// The business view of this entity does not impact the format of file you requested in requirements though
+/// datetime|referrer|useragent|ip
 /// </summary>
 public class Visitor
 {

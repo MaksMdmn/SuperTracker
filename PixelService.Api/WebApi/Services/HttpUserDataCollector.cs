@@ -15,10 +15,6 @@ namespace PixelService.Api.WebApi.Services;
 /// 
 /// - if storage-service would appear to be a bottleneck and fail, pixel-service will continue their job with no
 /// interruptions
-///
-/// - requirements do not specify any for choice of the communication approach, so I'm using masstransit here.
-/// It supports most of the popular buses (or event-streaming(s) like kafka, azure event hub, in case if we're gonna
-/// have lots of visitors), so we can later easily switch between them 
 /// </summary>
 public class HttpUserDataCollector(
     IHttpContextAccessor accessor, 

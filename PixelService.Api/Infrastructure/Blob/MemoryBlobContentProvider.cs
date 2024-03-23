@@ -5,8 +5,12 @@ namespace PixelService.Api.Infrastructure.Blob;
 
 /// <summary>
 /// This was not in requirements of where to get/store image.
-/// In this case I just hard code it in memory, potentially we could store it as static file and/or, if there re
-/// much more image options - in Azure blob storage (and provide implementation for that provider accordingly).
+/// In this case I just hardcoded it in memory for simplification.
+/// But in case if we might have more complex logic and/or different images to collect data - potentially it can be
+/// reimplemented to pick up from:
+/// - static files
+/// - cloud blob storage
+/// - etc.
 /// </summary>
 public class MemoryBlobContentProvider : IBlobContentProvider
 {
