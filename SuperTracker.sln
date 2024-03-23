@@ -8,8 +8,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageService.Api.DataCont
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution files", "Solution files", "{24D6B341-1E14-414C-8666-E22FEB7B293F}"
 	ProjectSection(SolutionItems) = preProject
-		docker-compose.yaml = docker-compose.yaml
+		docker-compose.yml = docker-compose.yml
 		.gitignore = .gitignore
+		run-docker-compose-build.sh = run-docker-compose-build.sh
+		run-docker-compose-up.sh = run-docker-compose-up.sh
+		docker-compose.build.yml = docker-compose.build.yml
 	EndProjectSection
 EndProject
 Global

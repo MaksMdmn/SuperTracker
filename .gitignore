@@ -227,13 +227,3 @@ userlist.txt
 
 #Local settings
 **/local.settings.json
-
-/MAZE/MAZE_elastic_volume/
-/MAZE/__blobstorage__/
-/MAZE/__azurite_db_blob__.json
-/MAZE/__azurite_db_blob_extent__.json
-/MAZE/__azurite_db_queue__.json
-/MAZE/__azurite_db_queue_extent__.json
-/MAZE/__azurite_db_table__.json
-/MAZE/http-client.private.env.json
-/MAZE/global.json

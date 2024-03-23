@@ -1,0 +1,19 @@
+version: '2.4'
+
+services:
+  
+  pixel.service.api:
+    image: ${IMAGEPREFIX:-local}pixel.service.api:${TAG:-0.0.0.1}
+    build:
+      context: .
+      dockerfile: PixelService.Api/Dockerfile
+      args:
+        BUILD_VERSION: ${TAG:-0.0.0.1}
+    
+  storage.service.api:
+    image: ${IMAGEPREFIX:-local}storage.service.api:${TAG:-0.0.0.1}
+    build:
+      context: .
+      dockerfile: StorageService.Api/Dockerfile
+      args:
+        BUILD_VERSION: ${TAG:-0.0.0.1}

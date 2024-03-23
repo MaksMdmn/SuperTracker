@@ -1,0 +1,29 @@
+version: '2.4'
+
+services:
+  
+  pixel.service.api:
+    image: ${IMAGEPREFIX:-local}pixel.service.api:${TAG:-0.0.0.1}
+    ports:
+      - "8080:8080"
+    networks:
+      - custom_network
+    
+  storage.service.api:
+    image: ${IMAGEPREFIX:-local}storage.service.api:${TAG:-0.0.0.1}
+    networks:
+      - custom_network
+    
+  messaging.rabbitmq:
+    image: rabbitmq:3.8-management
+    container_name: messaging.rabbitmq
+    hostname: messaging.rabbitmq
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    networks:
+      - custom_network
+
+networks:
+  custom_network:
+    name: custom_network

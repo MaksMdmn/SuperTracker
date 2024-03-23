@@ -1,0 +1,1 @@
+COMPOSE_INTERACTIVE_NO_CLI=1 docker-compose -p supertrackerapp -f ./docker-compose.build.yml build
